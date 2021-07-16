@@ -1,0 +1,33 @@
+{
+        "_id" : _id,
+        "fecha_grabacion" : string,
+        "ciudad" : string,
+        "duracion" : float,
+        "formato" : int,
+        "latitud" : double,
+        "longitud" : double,
+        "exterior" : string,
+        "usuario" : {
+                "_rut" : int,
+                "nombre" : string,
+                "apellido" : string
+        },
+        "url_audio" : string,
+        "audio" : {
+                "filename" : string,
+                "fieldif" : _id
+        },
+        "segmentos" : [
+                {
+                        "formato" : string,
+                        "duracion" : double,
+                        "inicio" : double,
+                        "fin" : float,
+                        "etiquetas" : {
+                                "nombre_fuente" : string,
+                                "descripcion" : string,
+                                "id_analizador" : int
+                        }
+                }
+        ]
+}

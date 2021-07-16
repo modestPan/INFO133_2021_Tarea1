@@ -1,0 +1,55 @@
+{
+    "_id" : ObjectId("60f0cb89a5f52b659d3e5b7b"),
+    "fecha_grabacion" : "12/10/2020",
+    "ciudad" : "valdivia",
+    "duracion" : 27.5,
+    "formato" : ".wav",
+    "latitud" : -73.24656940365458,
+    "longitud" : -39.826096118700164,
+    "exterior" : "exterior",
+    "usuario" : {
+            "_rut" : 19410755,
+            "nombre" : "ivania",
+            "apellido" : "Perez"
+    },
+    "url_audio" : "Sonidos/patting.wav",
+    "audio" : {
+            "filename" : "patting",
+            "fieldif" : ObjectId("60f0cb89a5f52b659d3e5b51")
+    },
+    "segmentos" : [
+            {
+                "formato" : ".wav",
+                "duracion" : 20.725620992870166,
+                "inicio" : 6.774379007129834,
+                "fin" : 27.5,
+                "etiquetas" : {
+                        "nombre_fuente" : "Humanos",
+                        "descripcion" : "Descripcion del segmento...",
+                        "id_analizador" : 7814064
+                }
+            },
+            {
+                "formato" : ".wav",
+                "duracion" : 25.832442245522184,
+                "inicio" : 1.6675577544778157,
+                "fin" : 27.5,
+                "etiquetas" : {
+                        "nombre_fuente" : "Humanos",
+                        "descripcion" : "Descripcion del segmento...",
+                        "id_analizador" : 5018837
+                }
+            },
+            {
+                "formato" : ".wav",
+                "duracion" : 4.747383232837603,
+                "inicio" : 22.752616767162397,
+                "fin" : 27.5,
+                "etiquetas" : {
+                        "nombre_fuente" : "Mecanicos",
+                        "descripcion" : "Descripcion del segmento...",
+                        "id_analizador" : 6905570
+                }
+            }
+    ]
+}
